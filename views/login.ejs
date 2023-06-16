@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Session</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+    <sectio class="form-main">
+        <div class="form-content">
+            <div class="box">
+                <h3>Bievenido</h3>
+                <form action="/auth" method="POST">
+                    <div class="input-box">
+                        <input type="text" name="email" id="email" placeholder="Email" class="input-control">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="pass" id="pass" placeholder="Password" class="input-control">
+                        <!--<div class="input-link">
+                            <a href="#" class="gradient-text">
+                                Has olvidado la contraseña
+                            </a>
+                        </div>-->
+                    </div>
+                    <button type="submit" class="btn">Iniciar Session</button>
+                </form>
+                <!--<p>No tienes una cuenta? <a href="signup" class="gradient-text">Crear Cuenta</a></p>-->
+            </div>
+        </div>
+    </sectio>
+    
+</body>
+</html>
